@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+
+body {
+    background-color: rgb(22, 21, 21);
+    
+}
+header {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 100p;
+    font-size: larger;
+    border-bottom: #000000;
+    columns: White;
+    color: wheat;
+}
+table {
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    border-color: white;
+    
+    text-align: center;
+    padding: 0px; 
+}
+
+h1 {
+    text-align: center;
+}
+hr {
+    text-align: center;
+    color: wheat;
+    /*Part to be added to the hr in the live page*/ 
+    width: 702px;
+    border-radius: 10px;
+    border-color: wheat;
+}
+
+button {
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    background-color: #F9D342;
+    border-radius: 12px;
+    font-weight: 900;
+    font-family: sans-serif;
+    padding-left: 70px;
+    padding-right: 70px;   
+    text-transform: uppercase;
+}
+button:hover {
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    background-color: #fddd5c;
+    border-radius: 12px;
+    font-weight: 900;
+    font-family: sans-serif;
+    padding-left: 70px;
+    padding-right: 70px; 
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+
+/* Part to be added to the live html file*/
+
+
+.orderedList {
+    padding-left: 66px;
+}
+
+h3 {
+    color: #F9D342;
+    text-align: center;
+    font-size: 26px;
+}
+
+#Firstbtd {
+    border: 2px dotted wheat;
+}
+#Lastbtd {
+    border: 2px dashed wheat;
+}
+
+/*This part below is list style image from google icons at https://fonts.google.com/icons 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+*/
+
+.Bull {
+    list-style-type: none; /* Remove the default bullet points */
+  }
+  
+ .Bull::before {
+    content: ""; /* This is necessary to insert the image */
+    display: block; /* This makes the image a block-level element */
+    background-image: url('/Images/Gallery/Bull2Logo.webp');
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    width: 50%; /* You can specify the size of the image here */
+    height: 50%;
+  }
