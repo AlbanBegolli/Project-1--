@@ -1,0 +1,68 @@
+body {
+  background: center/cover;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("images/banner-img.jpg");
+  background-repeat: no-repeat;
+  background-color: none;
+}
+form {
+        border: 1px #d3b026;
+        border-style: double;
+        border-radius: 30px;
+        padding: 20px;
+        width: 300px;
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 200px;
+        background-color: black;
+        opacity: 0.8;
+
+      }
+
+      input {
+        margin-bottom: 10px;
+      }
+
+      #Username {
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+      }
+
+      #password {
+        padding: 10px;
+        border-radius: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+      }
+
+      #submit{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #d3b026;
+        color: white;
+        border-color: #d3b026;
+        font-size: 15;    
+        border-radius: 30px;
+      }
+
+
+      #submit:hover{
+        
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #fcca04;
+        color: white;
+        border-color: #fcca04;
+        font-size: 15;    
+        border-radius: 30px;
+
+      }
